@@ -10,6 +10,7 @@ export function MainPage() {
 
   return <div>
     <div style={{display: 'flex'}}>
+      <h1>MusicFun Player</h1>
       <TrackList onTrackSelect={handleTrackSelect} selectedTrackId={trackId} />
       <TrackDetail trackId={trackId} />
     </div>
